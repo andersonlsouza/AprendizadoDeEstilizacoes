@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    position: relative;
 }
 
 .flex {
@@ -12,7 +11,7 @@
 }
 
 body {
-    width: 10vw;
+    width: 100vw;
     height: 100vh;
     background: #111;
 }
@@ -31,8 +30,6 @@ body {
     stroke-linecap: round;
     animation: oj 4s linear infinite;
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .svgBox svg:nth-of-type(1) {
